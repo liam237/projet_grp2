@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+background-image: url("../images/font4.webp"); 
+}
+#ecole{
+    color:rgb(20, 20, 20);    
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 270px;
+    height: 270px; ;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+#etudiant{
+    color:rgb(23, 22, 22) ;
+    background: rgba(119, 157, 166, 0.266); 
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 270px;
+    height:270px ;
+    padding: 20px;
+   
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+#operation {
+    color:rgb(17, 14, 14);
+    background: rgba(119, 157, 166, 0.266);  
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 270px;
+    height:270px ;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border-color: black;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0,1);
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+
+}
+
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow:  0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
